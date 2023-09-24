@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Cursos</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=VT323&display=swap">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="backgroundIndex">
+        <img src="imagens/education-minecraft-logo.png" alt="education-minecraft-logo" class="education-logo">
+        <img src="imagens/sparkles.gif" alt="brilho" class="sparkles">
+
+        <img src="imagens/html-friends.png" alt="html-friends" class="html-logo">
+        <img src="imagens/java-logo.png" alt="java-logo" class="java-logo">
+        <img src="imagens/python-logo.png" alt="python logo" class="python-logo">
+    <img src="imagens/cursos-ferias-titulo.png" alt="cursos-ferias" class="titulo-curso-ferias">
+    <ul>
+        <!-- Preencher esta lista com cursos dinamicamente a partir do MockAPI -->
+    </ul>
+
+</div>
+<div class="blocos-imagem-div">
+    <img src="imagens/programacao-basica-blocos.png" alt="programacao-basica-blocos" class="titulo-programacao-basica-blocos">
+    
+    <img src="imagens/botao.png" id="curso1" alt="botao" class="botao-curso-blocos1">
+
+<img src="imagens/skin01.png" alt="skin01" class="skin01">
+<img src="imagens/programming.png" alt="programming" class="programming-image">
+<div class="courses-informations">
+
+</div>
+</div>
+
+<div class="courses-descriptions"></div>
+<div class="more-details">
+    
+    <div class="textos-da-pagina">
+        <p><strong>Os diversos cursos oferecidos são exclusivos para estudantes de nossa escola. As aulas serão ministradas por professores especializados na área de tecnologia.</strong></p>
+        <br>
+        <p><strong>Lista de cursos:</strong></p>
+        <dl>
+            <dt><strong>Java</strong></dt>
+            <dd><strong>Java é uma linguagem de programação versátil e amplamente usada, conhecida por sua portabilidade e segurança. É usada em uma variedade de aplicativos, de dispositivos móveis a sistemas empresariais.</strong></dd>
+            <dd><strong>Turno/Horário: Segunda e Terça 14:00-16:00</strong></dd>
+            <dd><strong>Professor: Steve</strong></dd>
+            <dd><strong>Valor: R$250,00</strong></dd>
+           
+            <img src="imagens/botao.png" id="curso2" alt="botao" class="botao-curso-java">
+        
+            <br>
+            <dt><strong>HTML | CSS | JS</strong></dt>
+            <dd><strong>HTML: Linguagem de marcação para estruturar conteúdo na web.
+                CSS: Linguagem de estilo para design e formatação de páginas web.
+                JavaScript: Linguagem de programação usada para criar interatividade e dinamismo em páginas web.</strong></dd>
+                <dd><strong>Turno/Horário: Quarta e Quinta 14:00-16:00</strong></dd>
+                <dd><strong>Professora: Alex</strong></dd>
+                <dd><strong>Valor: R$350,00</strong></dd>
+             
+                    <img src="imagens/botao.png" id="curso3" alt="botao" class="botao-curso-html">
+               
+                <br>
+            <dt><strong>Python</strong></dt>
+            <dd><strong>
+                Python é uma linguagem de programação de alto nível amplamente utilizada, conhecida por sua simplicidade e facilidade de leitura. É usada em desenvolvimento web, automação, análise de dados, inteligência artificial e muito mais, tornando-a uma escolha popular para programadores de todos os níveis.</strong></dd>
+                <dd><strong>Turno/Horário: Sexta 14:00-16:00</strong></dd>
+                <dd><strong>Professor: Herobrine</strong></dd>
+                <dd><strong>Valor: R$200,00</strong></dd>
+                
+                    <img src="imagens/botao.png" id="curso4" alt="botao" class="botao-curso-python">
+                
+                <br>
+                <dt><strong>Programação em Blocos</strong></dt>
+            <dd><strong>Forma ideal para crianças terem o primeiro contato com o universo de programação. Estimulando o raciocinio lógico para resolver problemas e memorizer soluções.</strong></dd>
+            <dd><strong>Turno/Horário: Segunda, Quarta e Sexta 14:00-16:00</strong></dd>
+                <dd><strong>Professor: Enderman</strong></dd>
+                <dd><strong>Valor: R$250,00</strong></dd>
+                
+                    <img src="imagens/botao.png" id="curso1" alt="botao" class="botao-curso-blocos2">
+              
+            <br>
+          </dl>
+    </div>
+
+</div>
+<div class="footer">
+
+</div>
+
+<script>
+    // Função para redirecionar para a tela de inscrição com o código do curso
+    function redirecionarParaInscricao(codigoDoCurso) {
+        window.location.href = `formularioInscricao.html?codigoCurso=${codigoDoCurso}`;
+    }
+
+    // Adicione um ouvinte de evento de clique a cada imagem
+    const curso1 = document.getElementById('curso1');
+    curso1.addEventListener('click', function() {
+        redirecionarParaInscricao('curso1');
+    });
+
+    const curso2 = document.getElementById('curso2');
+    curso2.addEventListener('click', function() {
+        redirecionarParaInscricao('curso2');
+    });
+
+    const curso3 = document.getElementById('curso3');
+    curso3.addEventListener('click', function() {
+        redirecionarParaInscricao('curso3');
+    });
+
+    const curso4 = document.getElementById('curso4');
+    curso4.addEventListener('click', function() {
+        redirecionarParaInscricao('curso4');
+    });
+</script>
+
+</body>
+</html>

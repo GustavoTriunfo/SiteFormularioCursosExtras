@@ -1,0 +1,193 @@
+.backgroundIndex{
+        background-image: url('imagens/sky.png');
+        background-size: cover; /* Ajusta a imagem para cobrir todo o cabeçalho */
+        padding: 300px; /* Adicione preenchimento para o espaçamento */
+        border: none;
+}
+
+.education-logo{
+    position: absolute;
+    top: 50px;
+    left: 400px;
+    height: 280px;
+    width: 700px;
+    z-index: 2;
+}
+
+.sparkles{
+    position: absolute;
+    top: 50px;
+    left: 400px;
+    height: 350px;
+    width: 700px;
+    z-index: 1;
+}
+
+.skin01{
+    position: absolute;
+    top: 1125px;
+    left: 50px;
+    height: 300px;
+    width: 250px;
+    z-index: 3;
+}
+
+.programming-image{
+    position: absolute;
+    top: 900px;
+    left: 550px;
+    height: 400px;
+    width: 800px;
+    z-index: 3;
+}
+
+.tituloSuperior{
+    position: absolute;
+    top: 400px;
+    left: 80px;
+    color: #232323;
+   
+}
+
+.textos-da-pagina{
+     position: absolute;
+    top: 1500px;
+    left: 50px;
+    margin-right: 180px;
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    font-size: 20px;
+    z-index: 2;
+}
+
+.courses-informations{
+    background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo com transparência */
+    border: 0px solid #000;
+    position: absolute;
+    padding: 300px;
+    top: 850px;
+    width: 905px;
+    left: 0px;
+    z-index: 1;
+}
+
+.courses-descriptions{
+    background-color: rgba(0, 0, 0, 0.6); /* Cor de fundo com transparência */
+    border: 0px solid #000;
+    position: absolute;
+    padding: 440px;
+    top: 1490px;
+    width: 625px;
+    left: 0px;
+    z-index: 1;
+}
+
+.blocos-imagem-div {
+    background-image: url('imagens/blocos.png');
+    background-size: cover; /* Ajusta a imagem para cobrir todo o cabeçalho */
+    padding: 395px; /* Adicione preenchimento para o espaçamento */
+    border: none;
+}
+
+.titulo-programacao-basica-blocos{
+    position: absolute;
+    top: 900px;
+    left: 30px;
+    height: 130px;
+    width: 500px;
+    z-index: 2;
+}
+
+.titulo-curso-ferias{
+    position: absolute;
+    top: 350px;
+    left: 420px;
+    height: 50px;
+    width: 650px;
+    z-index: 2;
+}
+
+.python-logo{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    height: 200px;
+    width: 200px;
+    z-index: 2;
+}
+
+.java-logo{
+    position: absolute;
+    top: 30px;
+    left: 1150px;
+    height: 300px;
+    width: 300px;
+    z-index: 2;
+}
+
+.html-logo{
+    position: absolute;
+    top: 500px;
+    left: 450px;
+    height: 300px;
+    width: 600px;   
+    z-index: 2;
+}
+
+.botao-curso-blocos1{
+    position: absolute;
+    top: 1310px;
+    left: 950px;
+    height: 100px;
+    width: 300px;
+    z-index: 2;
+}
+
+.botao-curso-java{
+    position: absolute;
+    top: 280px;
+    left: 210px;
+    height: 50px;
+    width: 150px;
+    z-index: 2;
+}
+
+.botao-curso-html{
+    position: absolute;
+    top: 450px;
+    left: 210px;
+    height: 50px;
+    width: 150px;
+    z-index: 2;
+}
+
+.botao-curso-python{
+    position: absolute;
+    top: 640px;
+    left: 260px;
+    height: 50px;
+    width: 150px;
+    z-index: 2;
+}
+
+.botao-curso-blocos2{
+    position: absolute;
+    top: 810px;
+    left: 260px;
+    height: 50px;
+    width: 150px;
+    z-index: 2;
+}
+
+
+.more-details{
+    background-image: url('imagens/caves.jpeg');
+    background-size: cover; /* Ajusta a imagem para cobrir todo o cabeçalho */
+    padding: 740px; /* Adicione preenchimento para o espaçamento */
+    border: none;
+}
+
+.footer{
+    padding: 70px; /* Adicione preenchimento para o espaçamento */
+    background-color: rgb(33, 33, 33);
+}
